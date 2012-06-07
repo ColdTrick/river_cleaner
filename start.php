@@ -7,3 +7,4 @@
 	// Initialization functions
 	elgg_register_event_handler('init', 'system', 'river_cleaner_init');
 	
+	elgg_register_action("river_cleaner/clean_river", dirname(__FILE__) . "/actions/clean_river.php", "admin");
